@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "E+UjQsPv7Yq85By/FmeD9bccAk7U2jAdN5La0hdYesuku5mtAy1SbRd0pSBMrzNH+zB89DaqIo+zaWMPBKQgTA==",
+  "success": true,
+  "projectFilePath": "D:\\Github\\MobileApp\\CEDMobile\\CEDMobile\\CEDMobile.iOS\\CEDMobile.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
