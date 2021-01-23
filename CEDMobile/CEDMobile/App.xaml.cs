@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using CEDMobile.View;
 
 namespace CEDMobile
 {
@@ -9,8 +10,7 @@ namespace CEDMobile
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            MainPage = new PersonView();
         }
 
         protected override void OnStart()

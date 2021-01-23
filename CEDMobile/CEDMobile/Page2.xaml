@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CEDMobile.Page2"
+             Title="Page2">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout>
+                    <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                        <Label Text="Create New Account" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" FontAttributes="Bold"/>
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="  User Name" FontSize="18" FontAttributes="Bold"/>
+                    <Entry x:Name="entUser" Placeholder=""></Entry>
+                    <Label Text="  E-Mail" FontSize="18" FontAttributes="Bold"/>
+                    <Entry x:Name="eMail" Placeholder=""></Entry>
+                    <Label Text="  Password" FontSize="18" FontAttributes="Bold"/>
+                    <Entry x:Name="entPass" Placeholder=""></Entry>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="  Select Name Title" FontSize="18" FontAttributes="Bold"/>
+                    <Picker x:Name="pickttn" >
+                        <Picker.Items>
+                            <x:String>Mr.</x:String>
+                            <x:String>Mrs.</x:String>
+                            <x:String>Ms.</x:String>
+                            <x:String>Dr.</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="  First Name" FontSize="18" FontAttributes="Bold"/>
+                    <Entry x:Name="FirstName" Placeholder="" ></Entry>
+                    <Label Text="  Last Name" FontSize="18" FontAttributes="Bold"/>
+                    <Entry x:Name="LasttName" Placeholder=""></Entry>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="  Birthday" FontSize="18" FontAttributes="Bold"/>
+                    <DatePicker x:Name="dp1"
+                    MinimumDate="1950/01/01"
+                    MaximumDate="2021/01/15"
+                     />
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="  Age" FontSize="18" FontAttributes="Bold"/>
+                    <Stepper x:Name="step1" Maximum="100" Minimum="0" Value="0"
+                     Increment="1" />
+                </StackLayout>
+                <StackLayout>
+                    <Editor x:Name="edt1" Placeholder="" 
+                    VerticalOptions="FillAndExpand">
+                    </Editor>
+                </StackLayout>
+
+                <Button Text="Regist" Clicked="Button_Clicked"></Button>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

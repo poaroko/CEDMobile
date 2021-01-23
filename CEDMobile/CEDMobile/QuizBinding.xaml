@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CEDMobile.QuizBinding">
+    <ContentPage.Content>
+        <StackLayout>
+            <Picker Title="-- Select Prefix --" x:Name="prefix">
+                <Picker.Items>
+                    <x:String>Mr.</x:String>
+                    <x:String>Mrs.</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            <Entry x:Name="entName" Placeholder="Enter First Name" />
+            <Entry x:Name="entLName" Placeholder="Enter Last Name" />
+            <DatePicker x:Name="dtp" />
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Summary&#10;&#10;Name:"/>
+                        <Span Text="{Binding Source={x:Reference prefix},Path=SelectedItem}" />
+                        <Span Text="{Binding Source={x:Reference entName},Path=Text}" />
+                        <Span Text=" "/>
+                        <Span Text="{Binding Source={x:Reference entLName},Path=Text}" />
+                        <Span Text="&#10;BirthDate:"/>
+                        <Span Text="{Binding Source={x:Reference dtp},Path=Date,StringFormat='{0:dd/MM/yy}'}" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CEDMobile.Page1"
+             Title="Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name ="lblVal" Text="100" FontSize="100" 
+                   FontAttributes="Bold" HorizontalOptions="Center"></Label>
+            <Slider x:Name="slider1" Maximum="200" Minimum="0"
+                     Value="100" ValueChanged="slider1_ValueChanged"
+                     HorizontalOptions="FillAndExpand"
+                     BackgroundColor="Gray"
+                     />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

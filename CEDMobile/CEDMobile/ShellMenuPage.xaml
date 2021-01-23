@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CEDMobile.ShellMenuPage"
+             xmlns:local="clr-namespace:CEDMobile">
+    <FlyoutItem Title="P1">
+        <ShellContent>
+            <local:Page1/>
+        </ShellContent>
+    </FlyoutItem>
+    <FlyoutItem Title="P2">
+        <ShellContent>
+            <local:Page2/>
+        </ShellContent>
+    </FlyoutItem>
+    <FlyoutItem Title="P3">
+        <ShellContent>
+            <local:Page3/>
+        </ShellContent>
+    </FlyoutItem>
+</Shell>

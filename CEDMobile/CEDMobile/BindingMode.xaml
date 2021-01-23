@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CEDMobile.BindingMode"
+             Title="Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name ="entVal" 
+                   BindingContext="{x:Reference slider1}"
+                   Text="{Binding Value,Mode=TwoWay}"
+                   FontAttributes="Bold" 
+                   HorizontalTextAlignment="Center"></Entry>
+            <Slider x:Name="slider1" Maximum="200" Minimum="0"
+                     Value="50" 
+                     HorizontalOptions="FillAndExpand"
+                     BackgroundColor="Gray"
+                     />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    
+    
+    
