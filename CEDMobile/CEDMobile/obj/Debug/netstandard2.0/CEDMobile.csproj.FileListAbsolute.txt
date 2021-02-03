@@ -20,3 +20,12 @@ D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\obj\Debug\netstandard2.0\Simpl
 D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\obj\Debug\netstandard2.0\View\PersonView.xaml.g.cs
 D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\obj\Debug\netstandard2.0\BindingMode.xaml.g.cs
 D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\obj\Debug\netstandard2.0\QuizBinding.xaml.g.cs
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\bin\Debug\netstandard2.0\Mono.Android.dll
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\bin\Debug\netstandard2.0\Mono.Android.pdb
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\bin\Debug\netstandard2.0\Mono.Android.xml
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\obj\Debug\netstandard2.0\Essential.xaml.g.cs
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\obj\Debug\netstandard2.0\CEDMobile.csproj.CopyComplete
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\obj\Debug\netstandard2.0\SimpleFile.xaml.g.cs
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\obj\Debug\netstandard2.0\CollectionV.xaml.g.cs
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\obj\Debug\netstandard2.0\SQLiteSample.xaml.g.cs
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile\obj\Debug\netstandard2.0\SQLiteSample2.xaml.g.cs

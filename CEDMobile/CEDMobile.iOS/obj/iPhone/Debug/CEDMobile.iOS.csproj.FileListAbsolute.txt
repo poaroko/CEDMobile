@@ -56,3 +56,14 @@ D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\obj\iPhone\Debug\CEDMobile
 D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\obj\iPhone\Debug\CEDMobile.iOS.csproj.CopyComplete
 D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\obj\iPhone\Debug\CEDMobile.iOS.exe
 D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\obj\iPhone\Debug\CEDMobile.iOS.pdb
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\bin\iPhone\Debug\SQLite-net.dll
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\bin\iPhone\Debug\SQLitePCLRaw.nativelibrary.dll
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\bin\iPhone\Debug\System.Buffers.dll
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\bin\iPhone\Debug\System.Memory.dll
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\bin\iPhone\Debug\Mono.Android.dll
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\bin\iPhone\Debug\Mono.Android.pdb
+D:\Github\MobileApp\CEDMobile\CEDMobile\CEDMobile.iOS\bin\iPhone\Debug\Mono.Android.xml

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CEDMobile.SQLiteSample2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Product Code" x:Name="entCode" />
+            <Entry Placeholder="Product Name" x:Name="entName" />
+            <Entry Placeholder="Product Price" Keyboard="Numeric"  x:Name="entPrice" />
+            <Button Text="Insert" x:Name="btnInsert" Clicked="btnInsert_Clicked" />
+            <Button Text="Update" x:Name="btnUpdate" Clicked="btnUpdate_Clicked" />
+            <Button Text="Delete" x:Name="btnDelete" Clicked="btnDelete_Clicked" />
+            <Button Text="Show" x:Name="btnShow" Clicked="btnShow_Clicked" />
+            <CollectionView x:Name="proView" SelectionMode="Single" 
+                            SelectionChanged="proView_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding Code}"
+                               TextColor="Silver"
+                               FontSize="Small" />
+                            <Label Text="{Binding Name}"
+                               FontSize="Small" />
+                            <Label Text="{Binding Price}"
+                               FontSize="Medium" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CEDMobile.SimpleFile">
+    <ContentPage.Content>
+        <StackLayout> 
+            <Entry Placeholder="New Content" x:Name="entContent" />
+            <Button Text="Add" x:Name="btnAdd" Clicked="btnAdd_Clicked" />
+            <Label x:Name="lblContent" Text=""
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Clear" x:Name="btnClear" Clicked="btnClear_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
